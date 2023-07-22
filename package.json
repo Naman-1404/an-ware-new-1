@@ -2,6 +2,7 @@
   "name": "ecom",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://naman-1404.github.io/an-ware-new",
   "dependencies": {
     "@auth0/auth0-react": "^1.10.2",
     "@testing-library/jest-dom": "^5.16.4",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
