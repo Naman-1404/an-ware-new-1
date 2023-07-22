@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Header/>
         <GlobalStyle/>
         <Routes>
