@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/an-ware-new-1/">
+      <BrowserRouter>
         <Header />
         <GlobalStyle />
         <Routes>
