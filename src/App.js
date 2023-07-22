@@ -12,7 +12,6 @@ import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 
 const App = () => {
-
   const theme = {
     colors: {
       heading: "rgb(24 24 29)",
@@ -40,17 +39,17 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <BrowserRouter basename="/">
-        <Header/>
-        <GlobalStyle/>
+      <BrowserRouter basename="/an-ware-new-1/">
+        <Header />
+        <GlobalStyle />
         <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/products" element={<Products />}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/singleproduct/:id" element={<SingleProduct/>}/>
-          <Route path="/cart" element={<Cart/>}/>
-          <Route path="*" element= {<ErrorPage/ >}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/singleproduct/:id" element={<SingleProduct />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
